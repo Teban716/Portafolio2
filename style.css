@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poopins:wght@300;400;500;600;700;800;900&display=swap');
-
-*{
+    *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -183,11 +181,43 @@ span{
     margin: 2rem 0 3rem;
 }
 
-.services h2 {
+.projects h2 {
     margin-bottom: 5rem;
 }
 
-.services-container {
+
+.projects-box {
+    flex: 1 1 30rem;
+    background: var(--second-bg-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    border: 0.2rem solid var(--bg-color);
+    transition: 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.projects img {
+    width: 35vw;
+}
+
+.projects-layer h4 {
+    font-size: 2.6rem;
+}
+
+.projects-layer p {
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+}
+
+.contact h2 {
+    margin-bottom: 5rem;
+}
+
+.contact-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -195,7 +225,7 @@ span{
     gap: 2rem;
 }
 
-.services-container .services-box {
+.contact-container .contact-box {
     flex: 1 1 30rem;
     background: var(--second-bg-color);
     padding: 3rem 2rem 4rem;
@@ -205,21 +235,21 @@ span{
     transition: 0.5s ease;
 }
 
-.services-container .services-box:hover {
+.contact-container .contact-box:hover {
     border-color: var(--main-color);
     transform: scale(1.02);
 }
 
-.services-box i {
+.contact-box i {
     font-size: 7rem;
     color: var(--main-color);
 }
 
-.services-box h3 {
+.contact-box h3 {
     font-size: 2.6rem;
 }
 
-.services-box p {
+.contact-box p {
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
 
